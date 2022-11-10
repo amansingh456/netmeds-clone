@@ -8,15 +8,53 @@ import Navbar from '../components/Navbar'
 import Navbar2 from '../components/Navbar2'
 import TopBrand from "../components/ImageSliders/TopBrand";
 import LightningDeals from '../components/ImageSliders/LightningDeals';
+import Footer from '../components/Footer';
 
 // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 const Home = () => {
     return (
         <>
+
+            {/* ########   Navbar Start ....... */}
+
             <Navbar />
+
+            {/* ########   Navbar End ....... */}
+
+
+
+
+
+
+
+
+
+            {/* ########   Navbar2 Start ....... */}
+
             <Navbar2 />
+
+            {/* ########   Navbar2 End ....... */}
+
+
+
+
+
+
+
+            {/* ########  Main Carousel Start ......... */}
+
             <Carousel />
+
+            {/* ########  Main Carousel End......... */}
+
+
+
+
+
+
+
+
 
 
             {/* #######    3-Boxes after carosel start........ */}
@@ -515,6 +553,20 @@ const Home = () => {
 
 
             {/* ###########   Health Concerns  End............ */}
+
+
+
+
+
+
+
+
+
+            {/* ##########   Footer Start ....... */}
+
+                <Footer/>
+
+            {/* ##########   Footer End ....... */}
 
 
         </>

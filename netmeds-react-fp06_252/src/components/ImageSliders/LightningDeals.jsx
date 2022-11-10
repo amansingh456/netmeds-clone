@@ -4,7 +4,7 @@ import { Text, Box, IconButton, useBreakpointValue } from "@chakra-ui/react";
 import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 // And react-slick as our Carousel Lib
 import Slider from "react-slick";
-// import AddCart from "../AddCart";
+import AddCart from "../AddCart";
 
 // Settings for the slider
 const settings = {
@@ -201,23 +201,23 @@ export default function LightningDeals() {
                 src={url.image}
                 alt=""
               />
-              <Text color={"black"} fontWeight={500}>
+              <Text color={"black"} fontWeight={500} mb={"5px"}>
                 {url.name}
               </Text>
-              <Text as={"i"} fontSize="smaller" color={"#717486"}>
+              <Text as={"i"} fontSize="smaller" color={"#717486"} >
                 {url.mkt}
               </Text>
               <br></br>
-              <span style={{ color: "#6F7284", fontWeight: "500px" }}>
+              <span style={{ color: "#6F7284", fontWeight: "500px"}} >
                 Best Price*{" "}
               </span>
-              <span style={{ color: "#EF4281" }}>{url.price}</span>
+              <span style={{ color: "#EF4281"}}>{url.price}</span>
               <br></br>
               <span style={{ color: "#6F7284" }}>MRP : </span>
               <Text color={"#717486"} as="s">
                 {url.mrp}
               </Text>
-              {/* <AddCart key={url.id} prodData={url} /> */}
+              <AddCart key={url.id} prodData={url} />
             </Box>
           </Box>
         ))}
