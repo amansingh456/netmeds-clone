@@ -1,12 +1,33 @@
 import React from 'react'
 import { Link, Route, Routes } from "react-router-dom";
 import Home from '../pages/Home';
+import Wellness from '../pages/Wellness';
+import SignIn from '../pages/SignIn';
+import SignUp from '../pages/SignUp';
+import Upload from '../pages/Upload';
+import Cart from "../pages/Cart";
+import CovidEssentialsPage from "../pages/CovidEssentialsPage";
+import ProductPage from '../pages/ProductPage';
 
 const AllRoutes = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home></Home>}  />
+        <Route path="/" element={<Upload></Upload>} />
+        <Route path="/signUp" element={<SignUp></SignUp>} />
+        <Route path="/signIn" element={<SignIn></SignIn>} />
+        <Route path="/wellness" element={<Wellness></Wellness>} />
+        <Route
+          path="/wellness/covidEssentials"
+          element={<CovidEssentialsPage></CovidEssentialsPage>}
+        />
+        <Route
+          path="/covidEssentials/productPage/:id"
+          element={<ProductPage></ProductPage>}
+        />
+        <Route path="/cart" element={<Cart></Cart>}></Route>
+        <Route path="/CovidEssentialsPage" element={<CovidEssentialsPage></CovidEssentialsPage>}></Route>
       </Routes>
     </div>
   )
@@ -38,18 +59,18 @@ export default AllRoutes
 //       {/* <Link to='/wellness/covidEssentials'></Link> */}
 //       <Routes>
 //         <Route path="/" element={<Home></Home>} />
-//         <Route path="/" element={<Upload></Upload>} />
-//         <Route path="/signUp" element={<SignUp></SignUp>} />
-//         <Route path="/signIn" element={<SignIn></SignIn>} />
-//         <Route path="/wellness" element={<Wellness></Wellness>} />
-//         <Route
-//           path="/wellness/covidEssentials"
-//           element={<CovidEssentialsPage></CovidEssentialsPage>}
-//         />
-//         <Route
-//           path="/covidEssentials/productPage/:id"
-//           element={<ProductPage></ProductPage>}
-//         />
+        // <Route path="/" element={<Upload></Upload>} />
+        // <Route path="/signUp" element={<SignUp></SignUp>} />
+        // <Route path="/signIn" element={<SignIn></SignIn>} />
+        // <Route path="/wellness" element={<Wellness></Wellness>} />
+        // <Route
+        //   path="/wellness/covidEssentials"
+        //   element={<CovidEssentialsPage></CovidEssentialsPage>}
+        // />
+        // <Route
+        //   path="/covidEssentials/productPage/:id"
+        //   element={<ProductPage></ProductPage>}
+        // />
 //         <Route path="/labtest" element={<LabTest></LabTest>} />
 //         <Route path="/beauty" element={<Beauty></Beauty>} />
 //         <Route path="/cart" element={<Cart></Cart>}></Route>

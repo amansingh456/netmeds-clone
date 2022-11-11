@@ -135,7 +135,7 @@ const Navbar2 = () => {
           alignItems:"center"
         }}
       >
-        <Link to="/">COVID Essentials</Link>
+        <Link to="/CovidEssentialsPage">COVID Essentials</Link>
         <Link to="/">Diabetes</Link>
         <Link to="/">Eyewear</Link>
         <Link to="/">Ayush</Link>
