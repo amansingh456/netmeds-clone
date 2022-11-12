@@ -15,6 +15,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../Redux/actions";
 import Navbar from "../components/Navbar";
+import Swal from 'sweetalert2'
 
 export default function SignUp() {
   const [flag, setFlag] = React.useState(false);
@@ -58,23 +59,24 @@ export default function SignUp() {
       ) {
         localStorage.setItem("USERDATA", JSON.stringify(customerData));
         dispatch(login());
-        alert("SignUp Successful...!!");
+        Swal.fire("SignUp Successful...!!");
         navigate("/");
       } else {
-        alert("FAILED >>>>> USE OTP 123456");
+        Swal.fire(" ❗FAILED -- Enter OTP 123456");
       }
     } else {
-      alert("Please Fill Email Id");
+      Swal.fire("Please Fill Email Id");
     }
   };
 
-  // handleChange = (otp) => this.setState({ otp });
+
   return (
     <>
       <Navbar />
 
       <Box
         m={50}
+        mt={130}
         rounded={20}
         p={20}
         pl={0}
@@ -153,7 +155,7 @@ export default function SignUp() {
                             bg: "#24AEB1.500",
                           }}
                         >
-                          USE OTP
+                          Send OTP
                         </Button>
                       </Stack>
                     </Box>
@@ -296,15 +298,7 @@ export default function SignUp() {
                         marginLeft: "-180px",
                       }}
                     >
-                      {/* {otp.map((el, index) => {
-    return (  <Input placeholder="1" mr={3} width={12} type="number" min={1}  max={1}
-        name="otp"
-        key={index}
-        onFocus={(e) => e.target.select()}
-          
-        />
-    )
-  })} */}
+                      
 
                       <HStack>
                         <PinInput>

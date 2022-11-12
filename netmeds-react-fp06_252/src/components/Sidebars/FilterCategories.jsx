@@ -18,7 +18,6 @@ import { fetchData } from "../../Redux/actions";
 const FilterCategories = () => {
   const dispatch = useDispatch();
   const [searchParams, setSearchParams] = useSearchParams();
-  // console.log(searchParams.getAll("type"))
 
   const [categoryValues, setCategoryValues] = useState(
     searchParams.getAll("type") || []
@@ -50,7 +49,6 @@ const FilterCategories = () => {
       >
         <Text>Category</Text>
         <br></br>
-        {/* <Input placeholder='search here' onChange={(e)=>categoryHandler(e.target.value)}/> */}
         <CheckboxGroup
           colorScheme="green"
           defaultValue={categoryValues}

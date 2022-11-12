@@ -59,50 +59,50 @@ const Footer = () => {
             />
           </div>
           <Pmed>
-            
-Netmeds.com is one of India’s most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India.
+
+            Netmeds.com is one of India’s most trusted pharmacies, dispensing quality medicines at reasonable prices to over 7 million happy customers – PAN India.
           </Pmed>
         </FooterTop>
         <hr />
         <FooterContainer>
           <div>
-            <h4 style={{marginBottom:"5px", fontSize:"18px"}}>COMPANY</h4>
+            <h4 style={{ marginBottom: "5px", fontSize: "18px" }}>COMPANY</h4>
             <FooterComDiv>
-              <p style={{marginBottom:"3px"}}>About Netmeds</p>
-              <p style={{marginBottom:"3px"}}>Customers Speak</p>
-              <p style={{marginBottom:"3px"}}>In the News</p>
-              <p style={{marginBottom:"3px"}}>Carrer</p>
-              <p style={{marginBottom:"3px"}}>Terms and Conditions</p>
-              <p style={{marginBottom:"3px"}}>Privacy Policy</p>
-              <p style={{marginBottom:"3px"}}>Fees and Payments Policy</p>
-              <p style={{marginBottom:"3px"}}>Shipping and Delivery Policy</p>
-              <p style={{marginBottom:"3px"}}>Return, Refund and Cancellation Policy</p>
+              <p style={{ marginBottom: "3px" }}>About Netmeds</p>
+              <p style={{ marginBottom: "3px" }}>Customers Speak</p>
+              <p style={{ marginBottom: "3px" }}>In the News</p>
+              <p style={{ marginBottom: "3px" }}>Carrer</p>
+              <p style={{ marginBottom: "3px" }}>Terms and Conditions</p>
+              <p style={{ marginBottom: "3px" }}>Privacy Policy</p>
+              <p style={{ marginBottom: "3px" }}>Fees and Payments Policy</p>
+              <p style={{ marginBottom: "3px" }}>Shipping and Delivery Policy</p>
+              <p style={{ marginBottom: "3px" }}>Return, Refund and Cancellation Policy</p>
               <p>Contact</p>
             </FooterComDiv>
           </div>
           <div>
-            <h4 style={{marginBottom:"5px", fontSize:"18px"}}>SHOPPING</h4>
+            <h4 style={{ marginBottom: "5px", fontSize: "18px" }}>SHOPPING</h4>
             <FooterComDiv>
-              <p style={{marginBottom:"3px"}}>Browse by A-Z</p>
-              <p style={{marginBottom:"3px"}}>Browse by Manufacturers</p>
-              <p style={{marginBottom:"3px"}}>Health Articles</p>
-              <p style={{marginBottom:"3px"}}>Offers / Coupons</p>
-              <p style={{marginBottom:"3px"}}>FAQs</p>
+              <p style={{ marginBottom: "3px" }}>Browse by A-Z</p>
+              <p style={{ marginBottom: "3px" }}>Browse by Manufacturers</p>
+              <p style={{ marginBottom: "3px" }}>Health Articles</p>
+              <p style={{ marginBottom: "3px" }}>Offers / Coupons</p>
+              <p style={{ marginBottom: "3px" }}>FAQs</p>
             </FooterComDiv>
           </div>
           <div>
-            <h4 style={{marginBottom:"5px", fontSize:"18px"}}>SOCIAL</h4>
+            <h4 style={{ marginBottom: "5px", fontSize: "18px" }}>SOCIAL</h4>
             <FooterComDiv>
-              <p style={{marginBottom:"3px"}}>Patients Alike</p>
-              <p style={{marginBottom:"3px"}}>Facebook</p>
-              <p style={{marginBottom:"3px"}}>Twitter</p>
-              <p style={{marginBottom:"3px"}}>pedIn</p>
-              <p style={{marginBottom:"3px"}}>Youtube</p>
-              <p style={{marginBottom:"3px"}}>Refer & Earn</p>
+              <p style={{ marginBottom: "3px" }}>Patients Alike</p>
+              <p style={{ marginBottom: "3px" }}>Facebook</p>
+              <p style={{ marginBottom: "3px" }}>Twitter</p>
+              <p style={{ marginBottom: "3px" }}>pedIn</p>
+              <p style={{ marginBottom: "3px" }}>Youtube</p>
+              <p style={{ marginBottom: "3px" }}>Refer & Earn</p>
             </FooterComDiv>
           </div>
           <FooterSub>
-            <h4 style={{marginBottom:"5px", fontSize:"18px"}}>SUBSCRIBE TO OUR NEWSLETTER</h4>
+            <h4 style={{ marginBottom: "5px", fontSize: "18px" }}>SUBSCRIBE TO OUR NEWSLETTER</h4>
             <p>
               Get a free subscription to our health and fitness tip and stay
               tuned to our latest offers
@@ -114,21 +114,21 @@ Netmeds.com is one of India’s most trusted pharmacies, dispensing quality medi
             </ButtonAro>
             <hr />
             <div style={{ display: "flex", marginTop: "10px" }}>
-              <a href='https://play.google.com/store/apps/details?id=com.NetmedsMarketplace.Netmeds&hl=en'  target='_blank' rel="noreferrer">
-              <img
-                style={{ width: "130px", height: "35px" }}
-                src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png"
-                alt="gPlay"
-              />
+              <a href='https://play.google.com/store/apps/details?id=com.NetmedsMarketplace.Netmeds&hl=en' target='_blank' rel="noreferrer">
+                <img
+                  style={{ width: "130px", height: "35px" }}
+                  src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png"
+                  alt="gPlay"
+                />
               </a>
-              <a href="https://apps.apple.com/in/app/netmeds-india-ki-pharmacy/id1011070011"  target='_blank' rel="noreferrer">
-              <img
-                style={{ width: "130px", height: "35px", marginLeft: "15px" }}
-                src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png"
-                alt="app store"
-              />
+              <a href="https://apps.apple.com/in/app/netmeds-india-ki-pharmacy/id1011070011" target='_blank' rel="noreferrer">
+                <img
+                  style={{ width: "130px", height: "35px", marginLeft: "15px" }}
+                  src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png"
+                  alt="app store"
+                />
               </a>
-             
+
             </div>
           </FooterSub>
         </FooterContainer>

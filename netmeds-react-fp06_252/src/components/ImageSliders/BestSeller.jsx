@@ -29,7 +29,7 @@ export default function BestSeller() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    //dispatch(fetchSupplement())
+    
     dispatch(fetchBestSeller());
   }, []);
 
@@ -101,11 +101,11 @@ export default function BestSeller() {
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-            // backgroundImage={`url(${url})`}
+            
           >
             <Box
               fontSize="sm"
-            //   border={"1px solid grey"}
+           
             boxShadow={"rgba(99, 99, 99, 0.2) 0px 2px 8px 0px"}
               rounded={10}
               p={4}

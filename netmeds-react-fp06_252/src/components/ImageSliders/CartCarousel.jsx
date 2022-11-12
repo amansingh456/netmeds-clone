@@ -99,7 +99,7 @@ export default function CartCarousel() {
             backgroundSize="cover"
             backgroundImage={`url(${url})`}
           >
-            {/* <img width='100%' height='500px' src={url} alt=''/> */}
+            
           </Box>
         ))}
       </Slider>

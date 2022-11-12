@@ -18,7 +18,7 @@ export const Navv = styled.div`
 const Navbar2 = () => {
   return (
     <>
-      <Navv style={{ paddingLeft: "100px", paddingRight: "100px", marginTop:"100px" }}>
+      <Navv style={{ paddingLeft: "100px", paddingRight: "100px", marginTop: "100px" }}>
         <Box>
           <Menu>
             {({ isOpen }) => (
@@ -29,11 +29,11 @@ const Navbar2 = () => {
                 </MenuButton>
                 <MenuList>
                   <Link to="/">
-                    
+
                     <MenuItem color="black">All Medicines</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="black">
                       Previously Ordered Products
                     </MenuItem>
@@ -60,35 +60,35 @@ const Navbar2 = () => {
                 </MenuButton>
                 <MenuList>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Personal Care</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Make-up</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Hair</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Skin Care</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Tools & Appliances</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Mom & Baby</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Fragrances</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="#151B39">Men's Grooming</MenuItem>
                   </Link>
                 </MenuList>
@@ -106,15 +106,15 @@ const Navbar2 = () => {
                 </MenuButton>
                 <MenuList>
                   <Link to="/">
-                    
+
                     <MenuItem color="black">Health Library</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="black">PatientsAlike</MenuItem>
                   </Link>
                   <Link to="/">
-                    
+
                     <MenuItem color="black">Corona Awareness</MenuItem>
                   </Link>
                 </MenuList>
@@ -132,7 +132,7 @@ const Navbar2 = () => {
           color: "#151B39",
           fontSize: "15px",
           fontWeight: "400",
-          alignItems:"center"
+          alignItems: "center"
         }}
       >
         <Link to="/CovidEssentialsPage">COVID Essentials</Link>

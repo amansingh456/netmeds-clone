@@ -1,11 +1,6 @@
 import {
     Box,
     Text,
-    Image,
-    Center,
-    Heading,
-    Stack,
-    useColorModeValue,
     Flex,
     Button,
     Input,
@@ -154,7 +149,6 @@ import {
           width={212}
           height={356}
         >
-          {/* <Button bg={'#84BE52'} fontSize='smaller' p={1} color={'white'} size='xxs'>{url.off}</Button> */}
           <Box height={290}>
             <img
               style={{ paddingLeft: "14px", paddingTop: "2px" }}
@@ -178,12 +172,11 @@ import {
             <Text color={"#717486"} as="s">
               Rs.{strikeOfPrice}
             </Text>
-            {/* <Link to={`/covidEssentials/productPage/${id}`}>SEE MORE</Link> */}
+            
           </Box>
   
           <Box pt={0} height={100}>
             <AddCart key={id} prodData={daata} />
-            {/* </Link> */}
           </Box>
         </Box>
       </>

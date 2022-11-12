@@ -34,7 +34,7 @@ const SignIn = () => {
   return (
     <>
       <Navbar />
-      <Box bg={"#151B390F"} width="100%" height="auto">
+      <Box bg={"#151B390F"} width="100%" height="auto" mt={100} pb={10}>
         <Text pl={175} pt={5} pb={3} fontSize="28px" fontWeight={600}>
           Your Account
         </Text>
