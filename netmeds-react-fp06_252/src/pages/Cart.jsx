@@ -275,7 +275,7 @@ const Cart = () => {
           </Box>
         </Box>
       </Box>
-      <Footer/>
+      <Footer />
     </>
   );
 };
