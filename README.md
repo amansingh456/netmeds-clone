@@ -25,6 +25,5 @@ https://med-x-drug.netlify.app
 
 
 ## Screenshots
-
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/amansingh456/eminent-art-8078/blob/main/Screenshot%20(45).png))
+(https://github.com/amansingh456/eminent-art-8078/blob/main/Screenshot%20(45).png)
 
